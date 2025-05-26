@@ -2,11 +2,11 @@
 
 This repository is a collection of 3d prints I made for Gridfinity.
 
-I also have a repository of creations for the multiboard. [Check it out](https://github.com/Apollo-Roboto/3d_prints_multiboard/).
+I also have a repository of creations for Multiboard. [Check it out](https://github.com/Apollo-Roboto/3d_prints_multiboard/).
 
-Each blender files should have an export script that will export the model in the proper format
+~~Each blender files should have an export script that will export the model in the proper format~~ (todo)
 
-Please avoid saving blend files with compression for git
+Please avoid saving .blend files with compression for git
 
 ## About Gridfinity
 
