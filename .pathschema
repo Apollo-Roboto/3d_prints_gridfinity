@@ -1,0 +1,19 @@
+.git/
+    ...
+.github/
+    ...
+.vscode/
+    ...
+
+"[a-z0-9_]+"/
+    resources/
+        ...
+    "gridfinity_[a-z0-9_]+.(blend[0-9]?|scad)"
+
+    # Format is {{ width }}x{{ height }}_{{ UnitHeight }}u_{{ Quantity }}_{{ Name }}.{{ FileFormat }}
+    "[0-9]+x[0-9]+_[0-9]+u_[0-9]+_[a-z0-9_]+\.(obj|stl)"
+    +Readme.md
+
++README.md
+.pathschema
+.gitignore
