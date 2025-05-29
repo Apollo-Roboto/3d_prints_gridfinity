@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        ".pathschema": "plaintext"
+    },
+    "meshviewer.backgroundColor": "#3b3b3b",
+    "meshviewer.flatShading": true,
+    "meshviewer.metalness": 1.0,
+    "meshviewer.roughness": 0.8,
+    "meshviewer.showGrid": true,
+    "meshviewer.showAxis": true,
+    "meshviewer.showPoints": false,
+    "meshviewer.doubleSide": false,
+}

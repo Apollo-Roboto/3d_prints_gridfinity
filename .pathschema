@@ -5,6 +5,7 @@
 .vscode/
     ...
 
+# Model folders
 "[a-z0-9_]+"/
     resources/
         ...
@@ -13,6 +14,9 @@
     # Format is {{ width }}x{{ height }}_{{ UnitHeight }}u_{{ Quantity }}_{{ Name }}.{{ FileFormat }}
     "[0-9]+x[0-9]+_[0-9]+u_[0-9]+_[a-z0-9_]+\.(obj|stl)"
     +readme.md
+
+scripts/
+    *.py
 
 +readme.md
 .pathschema
