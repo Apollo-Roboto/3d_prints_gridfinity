@@ -12,12 +12,12 @@ foreach($folder in $pycache_folders) {
     Remove $folder;
 }
 
-$project_folders = Get-ChildItem -Directory | Where-Object {$_.Name -match '^[a-z_]+$'};
+$project_folders = Get-ChildItem -Directory | Where-Object {$_.Name -match '^[a-z0-9_]+$'};
 foreach($folder in $project_folders) {
 
     Push-Location $folder;
 
-    $files = Get-ChildItem -File | Where-Object {$_.Name -match '^gridfinity_.+\.(blend[1-9]+|FCBak)$'};
+    $files = Get-ChildItem -File | Where-Object {$_.Name -match '^gridfinity_.+\.(blend[0-9]+|[0-9-]+\.FCBak)$'};
 
     foreach($file in $files) {
         Remove $file;
