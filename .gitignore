@@ -1,3 +1,7 @@
+# python
 __pycache__/
 *.py[cod]
+.ruff_cache/
+
 *.blend[123456789]
+*.FCBak

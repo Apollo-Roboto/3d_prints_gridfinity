@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "kiui.mesh-viewer"
+        "kiui.mesh-viewer",
+        "nefrob.vscode-just-syntax",
     ]
 }

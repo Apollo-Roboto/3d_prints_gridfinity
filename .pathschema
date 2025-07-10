@@ -4,20 +4,27 @@
     ...
 .vscode/
     ...
+.ruff_cache/
+    ...
+
+scripts/
+    __pycache__/
+        ...
+    *.py
+    *.ps1
+
++readme.md
+justfile
+.gitignore
+.pathschema
 
 # Model folders
 "[a-z0-9_]+"/
     resources/
         ...
-    "gridfinity_[a-z0-9_]+.(blend[0-9]?|scad)"
+    "gridfinity_[a-z0-9_]+.(\.blend[0-9]?|\.scad|\.FCStd|\.[0-9-]+\.FCBak)"
 
-    # Format is {{ width }}x{{ height }}_{{ UnitHeight }}u_{{ Quantity }}_{{ Name }}.{{ FileFormat }}
-    "[0-9]+x[0-9]+_[0-9]+u_[0-9]+_[a-z0-9_]+\.(obj|stl)"
+    # Format is {{ Width }}x{{ Height }}_{{ UnitHeight }}u_{{ Quantity }}_{{ Name }}.{{ FileFormat }}
+    "[0-9]+x[0-9]+_[0-9]+u_[0-9]+_[a-z0-9_]+\.(obj|stl|3mf)"
+
     +readme.md
-
-scripts/
-    *.py
-
-+readme.md
-.pathschema
-.gitignore
